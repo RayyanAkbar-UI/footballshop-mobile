@@ -1,5 +1,3 @@
-# Football Shop Mobile
-
 ## Jawaban Pertanyaan Tugas 7
 
 ### 1. Apa itu widget tree pada Flutter dan bagaimana hubungan parent-child (induk-anak) bekerja antar widget?
@@ -32,28 +30,3 @@ BuildContext adalah objek yang merepresentasikan lokasi widget dalam widget tree
 
 ### 6. Jelaskan konsep "hot reload" di Flutter dan bagaimana bedanya dengan "hot restart".
 Hot reload memperbarui kode aplikasi tanpa mengulang seluruh aplikasi, sehingga perubahan UI langsung terlihat tanpa kehilangan state. Hot restart memulai ulang aplikasi dari awal, sehingga seluruh state aplikasi direset.
-
----
-
-## Checklist Implementasi
-- [x] Membuat program Flutter baru bertema Football Shop
-- [x] Tiga tombol: All Products, My Products, Create Product
-- [x] Warna biru, hijau, merah untuk tombol
-- [x] Snackbar sesuai tombol
-- [x] Jawaban pertanyaan di README.md
-# footballshop_mobile
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

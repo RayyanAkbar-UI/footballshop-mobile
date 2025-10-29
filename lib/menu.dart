@@ -56,7 +56,11 @@ class ItemCard extends StatelessWidget {
               children: [
                 Icon(item.icon, color: Colors.white, size: 30.0),
                 const Padding(padding: EdgeInsets.all(3)),
-                Text(item.name, textAlign: TextAlign.center, style: const TextStyle(color: Colors.white)),
+                Text(
+                  item.name,
+                  textAlign: TextAlign.center,
+                  style: const TextStyle(color: Colors.white),
+                ),
               ],
             ),
           ),
@@ -81,7 +85,10 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Football Shop', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
+        title: const Text(
+          'Football Shop',
+          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+        ),
         backgroundColor: Theme.of(context).colorScheme.primary,
       ),
       body: Padding(
@@ -103,7 +110,13 @@ class MyHomePage extends StatelessWidget {
                 children: [
                   const Padding(
                     padding: EdgeInsets.only(top: 16.0),
-                    child: Text('Selamat datang di Football Shop', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18.0)),
+                    child: Text(
+                      'Selamat datang di Football Shop',
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 18.0,
+                      ),
+                    ),
                   ),
                   GridView.count(
                     primary: true,
