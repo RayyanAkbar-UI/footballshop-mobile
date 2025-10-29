@@ -72,9 +72,9 @@ class ItemCard extends StatelessWidget {
 
 class MyHomePage extends StatelessWidget {
   MyHomePage({super.key});
-  final String nama = "Lionel Messi";
-  final String npm = "2406275678";
-  final String kelas = "B";
+  final String nama = "Rayyan Akbar Gumilang";
+  final String npm = "2406496422";
+  final String kelas = "E";
   final List<ItemHomepage> items = [
     ItemHomepage("All Products", Icons.list, Colors.blue),
     ItemHomepage("My Products", Icons.shopping_cart, Colors.green),
